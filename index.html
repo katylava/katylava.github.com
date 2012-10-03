@@ -13,19 +13,26 @@
         margin: 0;
         padding: 0;
       }
+      section {
+        position: relative;
+        margin: 40px auto 0;
+        width: 500px;
+      }
       section#overview {
         background: #fed;
         border: 5px double #321;
         color: #321;
         font-family: 'Cabin Condensed', 'Helvetica', 'Arial', sans-serif;
-        margin: 40px auto 0;
         padding: 100px;
         text-align: center;
         width: 300px;
       }
       section#twitter-timeline {
-        margin: 40px auto 0;
-        width: 500px;
+      }
+      section#lastfm {
+        text-align: center;
+        margin: 30px auto;
+        color: hsl(189, 65%, 44%);
       }
       h1 {
         font-size: 2em;
@@ -74,7 +81,6 @@
       <ul>
         <li class="cv"><a href="http://careers.stackoverflow.com/katylavallee">Resume</a></li>
       </ul>
-
     </section>
 
 
@@ -82,6 +88,18 @@
       <a class="twitter-timeline" width="500" height="600" href="https://twitter.com/katylava" data-widget-id="253570597815189504" data-link-color="#2aa198" data-theme="light">Tweets by @katylava</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </section>
+
+    <section id="lastfm">
+      <h3>Last.fm Top Artists</h3>
+      <div><a href="http://www.last.fm/user/katylava/?chartstyle=basic10"><img src="http://imagegen.last.fm/basic10/oartists/10/katylava.gif" border="0" /></a></div>
+    </section>
+
+    <!-- <section id="get-glue"> -->
+    <!--   <a href="http://o.getglue.com/katylava/stickers" class="glue-checkin-widget" data-type="stickers" data-userId="katylava">View Katy Lavallee's stickers on GetGlue</a> -->
+    <!--   <script type="text/javascript" src="http://widgets.o.getglue.com/checkin.js"></script> -->
+    <!--   <a href="http://o.getglue.com/katylava/checkins" class="glue-checkin-widget" data-type="checkins" data-userId="katylava">View Katy Lavallee's check-ins on GetGlue</a> -->
+    <!--   <script type="text/javascript" src="http://widgets.o.getglue.com/checkin.js"></script> -->
+    <!-- </section> -->
 
 
     <script type="text/javascript">
