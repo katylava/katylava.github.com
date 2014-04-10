@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/katylava
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://katylavallee.com
+  * I am katylava (https://keybase.io/katylava) on keybase.
+  * I have a public key with fingerprint A9CE F4F6 C2EE CA43 D9AE  7AC5 5C98 B583 35BF 056B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "a9cef4f6c2eeca43d9ae7ac55c98b58335bf056b",
+            "host": "keybase.io",
+            "key_id": "5c98b58335bf056b",
+            "uid": "597008ed0f701026df61c04c3ee7a600",
+            "username": "katylava"
+        },
+        "service": {
+            "hostname": "katylavallee.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397161501,
+    "expire_in": 157680000,
+    "prev": "57bb5aa6f03b87b71f040c4cca61b0030d771d2a863741434c1764069654ecf9",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.5
+Comment: https://keybase.io/crypto
+
+yMHvAnicbZFPTBNpGMZbFIrdQDAseEDXZCSxakO+6fzrFAiQjWSzaDYs0SyGpHzz
+zTdlQpmp02m1YXuxIbvtYXFZE7pEswl/vaBrDPFAjN2uBxJ240EOGnTFSmJQiZIV
+aNy45RvUi3Euk3ne3/M88+a9XbbD5rQf/LmgOOZ/zdvnM+sRW0fr//v6KUmXY5Sv
+n+rF2y9F1QLYCBmqZlI+CooIK6zCIw/GCLKMLEIsQMRxSPRKnJdhOEkBHC9RbqpH
+D1sOEiPBMK5TdaKRD78qE/UTfOTdQBQA8GIZKAKggYeXFZ5GgEUMJj08ABYYxoYG
++7AVDs1YEEYhFXdTRI2qiKj929UfEcEgxnVI7yP+kKGbOtKDZNpjmiGfZTZjIYs+
+gyX/+xy/pGoy2Z0YotgIq7pG+WhCIlO1gmlGFGie5gDtpvDZkGpgv2oRnMB7AXms
+Ghy1FhIkiYOQVwAjeQVJoBXAAsQiBHlaAoABsiDQsgd6eUZgaZZhES3wLOBFnmMx
+UkTSH8anNZ3yMeQ3YYBEhtWABs2Igal4NtO102Z32kqKi6zr2Zy7Kj7c9Pe0o6DE
+vmsSHJUt2VxDZHEqkK1PZAeW1yfPN3b1jswsbJSuNbriCan66MDein//EE4ajzKm
+m99ffTF1+b+myunm9MA336592ety5ttWsn/WL3329+Sbuc5urmjPrcw153jHpdaO
+/IHdq5HO7q+6y2eiX4wm0lWz7LHX1+/VvL1ZGoquBEZW4d3y5JhvOV0xVnZ1qD31
+U22uwVPbIj4ID6P0X8knTjjkWjz38BdH4nkhMza9WV5V/1uy7cjE8I8nSiYnNuYG
+8y2F5IV/mJrDTGo2f0Xzpje/bn86+sLvyt1PDTODStmdnOvx5z3qjXEKLMRPLU39
+8P3xQ80LxS83X9mfbQGHUBeb
+=ib4k
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/katylava
+
+==================================================================
+
