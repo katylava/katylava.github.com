@@ -60,8 +60,11 @@
       #imgur-card iframe {
         width: 430px !important;
       }
-      #instagram-card img.thumbnail {
+      #instafeed > a > img {
         background: #fff;
+        border: 1px solid #ccc;
+        margin: 5px;
+        padding: 5px;
       }
       #pinterest-card h2:last-child {
         border: none;
@@ -85,7 +88,7 @@
     <div class="column">
         <section id="instagram-card">
             <h2>instagram</h2>
-            <iframe src="http://widget.websta.me/in/katylava/?s=200&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:430px; height: 430px" ></iframe> <!-- websta - web.stagram.com -->
+            <div id="instafeed"></div>
         </section>
 
         <section id="imgur-card">
@@ -96,7 +99,6 @@
         <section id="github-card">
             <h2>github</h2>
             <div class="github-card" data-github="katylava" data-width="430" data-height="317" data-theme="medium"></div>
-            <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         </section>
 
         <section id="linkedin-card">
@@ -109,7 +111,6 @@
         <section id="twitter-timeline">
             <h2>twitter</h2>
             <a class="twitter-timeline" href="https://twitter.com/katylava" data-widget-id="253570597815189504">Tweets by @katylava</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </section>
 
         <section id="pinterest-card">
@@ -132,13 +133,32 @@
     <footer>
     </footer>
 
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
     <script>
-        document.body.style.backgroundColor = 'hsl(' + Math.floor(Math.random() * 360) + ',84%,90%)';
+        var hue = Math.floor(Math.random() * 360);
+        document.body.style.backgroundColor = 'hsl(' + hue + ',84%,90%)';
+
+        setInterval(function() {
+            hue = hue || 359;
+            document.body.style.backgroundColor = 'hsl(' + --hue + ',84%,90%)';
+        }, 2000);
+
+        var feed = new Instafeed({
+            accessToken: '53617.060752b.38fb38db6dc141019ad086566185bb8a',
+            clientId: '50b63550968847ef8a9fae94aa15e266',
+            get: 'user',
+            limit: 6,
+            links: true,
+            userId: 53617
+        });
+        feed.run();
     </script>
 
     <script type="text/javascript">
