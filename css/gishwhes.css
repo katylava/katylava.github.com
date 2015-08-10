@@ -1,0 +1,24 @@
+img {
+    -webkit-box-shadow: 2px 3px 11px -4px rgba(112,111,112,1);
+    -moz-box-shadow: 2px 3px 11px -4px rgba(112,111,112,1);
+    box-shadow: 2px 3px 11px -4px rgba(112,111,112,1);
+}
+
+#intro img {
+    width: 90%;
+}
+
+#imgur-album > div {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#imgur-album .column {
+    text-align: center;
+    width: 300px;
+}
+
+#imgur-album img {
+    margin-bottom: 16px;
+    max-width: 280px;
+}

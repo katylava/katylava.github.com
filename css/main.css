@@ -1,0 +1,71 @@
+a:link, a:visited {
+    color: #2879BC;
+}
+
+a:hover, a:active {
+    color: #7247BD;
+}
+
+body {
+    font-family: Neuton;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+
+footer {
+    clear: both;
+    color: #666;
+    font-size: .8em;
+    margin-top: 2em;
+}
+
+h1 {
+    font-family: "La Belle Aurore";
+    font-size: 2em;
+}
+
+h2 {
+    border-top: 1px dashed #333;
+    font-family: "Miltonian Tattoo";
+    margin-top: 2em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 1em;
+    padding: 0;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.column {
+    float: left;
+    padding: 0;
+    width: 500px;
+}
+
+.column > section {
+    margin: 0 auto;
+    min-height: 380px;
+    width: 430px;
+}
