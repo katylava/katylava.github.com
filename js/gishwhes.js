@@ -42,6 +42,3 @@ $('.overlay').on('click tap', function(e) {
         $(this).hide().html('')
     }
 })
-
-$('.overlay').on('click tap', 'div', function() { return false })
-
