@@ -61,7 +61,7 @@ article.image h1, article.image p {
     background: #fff;
     margin: 0 auto;
     max-height: 95vh;
-    max-width: 80vh;
+    max-width: 80vw;
     position: relative;
     z-index: 11;
     top: 2em;
@@ -82,5 +82,5 @@ article.image h1, article.image p {
     border: 5px solid #ccc;
     margin: 0 auto;
     max-height: 65vh;
-    max-width: 70%;
+    max-width: 70vw;
 }
