@@ -7,9 +7,9 @@ html, button, input, select, textarea,
 /*-------------------*/
 
 #intro img, #imgur-album img {
-    -webkit-box-shadow: 2px 3px 11px -4px rgba(112,111,112,1);
-    -moz-box-shadow: 2px 3px 11px -4px rgba(112,111,112,1);
-    box-shadow: 2px 3px 11px -4px rgba(112,111,112,1);
+    -webkit-box-shadow: 2px 2px 18px -4px rgba(112,111,112,1);
+    -moz-box-shadow: 2px 2px 18px -4px rgba(112,111,112,1);
+    box-shadow: 2px 2px 18px -4px rgba(112,111,112,1);
     margin: 0 auto;
 }
 
