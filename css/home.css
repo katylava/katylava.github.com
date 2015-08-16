@@ -1,4 +1,5 @@
 #imgur-card iframe {
+    margin: 0 !important;
     width: 430px !important;
 }
 
@@ -17,6 +18,6 @@
 }
 
 #stackoverflow-card {
-    width: 208px;
+    /* width: 208px; */
 }
 

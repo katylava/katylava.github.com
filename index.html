@@ -6,6 +6,8 @@
     <title>katy lavallee</title>
     <meta name="viewport" content="width=device-width">
     <link href="http://fonts.googleapis.com/css?family=La+Belle+Aurore|Miltonian+Tattoo|Neuton:300,400,400italic,700" rel="stylesheet" type="text/css">
+    <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet" type="text/css">
+    <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css" rel="stylesheet" type="text/css">
     <link href="/css/main.css" rel="stylesheet" type="text/css">
     <link href="/css/home.css" rel="stylesheet" type="text/css">
   </head>
@@ -19,52 +21,51 @@
 
     <p><a href="/gishwhes/2015.html">check out the re-cap of my 2015 GISHWHES adventure</a></p>
 
-    <div class="column">
-        <section id="instagram-card">
-            <h2>instagram</h2>
-            <div id="instafeed"></div>
-        </section>
+    <div class="pure-g">
 
-        <section id="imgur-card">
-            <h2>imgur</h2>
-            <blockquote class="imgur-embed-pub" lang="en" data-id="a/jFfmy"><a href="//imgur.com/a/jFfmy">&nbsp;</a></blockquote>
-        </section>
-
-        <section id="github-card">
-            <h2>github</h2>
-            <div class="github-card" data-github="katylava" data-width="430" data-height="317" data-theme="medium"></div>
-        </section>
-
-        <section id="linkedin-card">
-            <h2>linkedin</h2>
-            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/katy-lavallee/41/769/968" data-format="inline"></script>
-        </section>
-    </div>
-
-    <div class="column">
-        <section id="twitter-timeline">
+        <section class="pure-u-1 pure-u-lg-1-2" id="twitter-timeline">
             <h2>twitter</h2>
             <a class="twitter-timeline" href="https://twitter.com/katylava" data-widget-id="253570597815189504">Tweets by @katylava</a>
         </section>
 
-        <section id="pinterest-card">
+        <section class="pure-u-1 pure-u-lg-1-2" id="instagram-card">
+            <h2>instagram</h2>
+            <div id="instafeed"></div>
+        </section>
+
+        <section class="pure-u-1 pure-u-lg-1-2" id="imgur-card">
+            <h2>imgur</h2>
+            <blockquote class="imgur-embed-pub" lang="en" data-id="a/jFfmy"><a href="//imgur.com/a/jFfmy">&nbsp;</a></blockquote>
+        </section>
+
+        <section class="pure-u-1 pure-u-lg-1-2" id="pinterest-card">
             <h2>pinterest<h2>
             <a data-pin-do="embedUser" href="http://www.pinterest.com/katylava/" data-pin-scale-width="80" data-pin-scale-height="320" data-pin-board-width="430">Visit katy lavallee's profile on Pinterest.</a>
         </section>
 
-        <section id="google-card">
+        <section class="pure-u-1 pure-u-lg-1-2" id="google-card">
             <h2>google+</h2>
             <div class="g-person" data-width="430" data-href="//plus.google.com/u/0/102318656152572319755" data-rel="author"></div>
         </section>
-        <section id="stackoverflow-card">
+
+        <section class="pure-u-1 pure-u-lg-1-2" id="github-card">
+            <h2>github</h2>
+            <div class="github-card" data-github="katylava" data-width="430" data-height="317" data-theme="medium"></div>
+        </section>
+
+        <section class="pure-u-1 pure-u-lg-1-2" id="linkedin-card">
+            <h2>linkedin</h2>
+            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/katy-lavallee/41/769/968" data-format="inline"></script>
+        </section>
+
+        <section class="pure-u-1 pure-u-lg-1-2" id="stackoverflow-card">
             <h2>stackoverflow</h2>
             <a href="http://stackoverflow.com/users/111362/katy-lavallee">
                 <img src="http://stackoverflow.com/users/flair/111362.png" width="208" height="58" alt="profile for katy lavallee at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for katy lavallee at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
             </a>
         </section>
-    </div>
 
-    <div class="clearfix"></div>
+    </div>
 
     <footer>
         <h2>this is a footer</h2>
@@ -78,26 +79,9 @@
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
     <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-
-    <script>
-        var hue = Math.floor(Math.random() * 360);
-        document.body.style.backgroundColor = 'hsl(' + hue + ',84%,90%)';
-
-        setInterval(function() {
-            hue = hue || 359;
-            document.body.style.backgroundColor = 'hsl(' + --hue + ',84%,90%)';
-        }, 2000);
-
-        var feed = new Instafeed({
-            accessToken: '53617.060752b.38fb38db6dc141019ad086566185bb8a',
-            clientId: '50b63550968847ef8a9fae94aa15e266',
-            get: 'user',
-            limit: 6,
-            links: true,
-            userId: 53617
-        });
-        feed.run();
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/home.js"></script>
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
