@@ -51,22 +51,6 @@ ul li {
     padding: 0;
 }
 
-.clearfix:after {
-   content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
-
-.column {
-    float: left;
-    padding: 0;
-    width: 500px;
-}
-
-.column > section {
-    margin: 0 auto;
-    min-height: 380px;
-    width: 430px;
+.pure-g > section > h2 {
+    margin: 1em;
 }
