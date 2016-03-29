@@ -21,6 +21,7 @@ footer {
     color: #666;
     font-size: .8em;
     margin-top: 2em;
+    text-align: center;
 }
 
 h1 {
@@ -40,6 +41,10 @@ header {
     text-align: center;
 }
 
+header + p {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -53,4 +58,8 @@ ul li {
 
 .pure-g > section > h2 {
     margin: 1em;
+}
+
+.pure-g > section {
+    text-align: center;
 }
